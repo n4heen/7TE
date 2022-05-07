@@ -202,7 +202,6 @@ button:active{
 
 .highlight__wrapper{
     display: flex;
-    flex-wrap: wrap;
 }
 
 .highlight{
@@ -302,7 +301,6 @@ footer{
 display: flex;
 }
 .footer__logo--img{
-    width: 100px;
     filter:  grayscale(1) invert(1);
 }
 .footer__link,.footer__copyright{
@@ -354,6 +352,8 @@ display: flex;
 .highlight{
     width: 100%;
     margin-bottom: 24px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 }
